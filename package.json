@@ -1,0 +1,16 @@
+{
+  "name": "calc-tdd",
+  "version": "1.0.0",
+  "description": "Calc TDD - Willian Justen - Aula 82",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/*.spec.js",
+    "test:tdd": "mocha ./test/*.spec.js --watch"
+  },
+  "author": "Welinton Subtil",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
