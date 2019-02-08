@@ -4,12 +4,14 @@
   "description": "Calc TDD - Willian Justen - Aula 82",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test/*.spec.js",
-    "test:tdd": "mocha ./test/*.spec.js --watch"
+    "test": "./node_modules/.bin/mocha test/**/*.spec.js --require babel-register",
+    "test:tdd": "mocha test/**/*.spec.js --require babel-register --watch"
   },
   "author": "Welinton Subtil",
   "license": "ISC",
   "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
   }
