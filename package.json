@@ -1,7 +1,7 @@
 {
   "name": "calc-tdd",
   "version": "1.0.0",
-  "description": "Calc TDD - Willian Justen - Aula 82",
+  "description": "Simple Calc TDD - Willian Justen - Lecture 82/83",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/**/*.spec.js --require babel-register",
@@ -14,5 +14,9 @@
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wosubtil/simple-calc-tdd.git"
   }
 }
